@@ -1,0 +1,89 @@
+div {
+    padding: 1rem;
+    margin: 1rem;
+    text-align: center;
+    color: black;
+}
+
+#out {
+    outline-color: green;
+    outline-style: dashed;
+    background-color: green;
+    border: opx;
+
+
+}
+
+#con {
+    background-color: white;
+    outline-style: 1px solid black;
+    border: 1px solid black;
+}
+
+#bor {
+    background-color: gray;
+    outline-style: 1px solid black;
+    border: 1px solid black;
+}
+
+
+
+.row1,.row2 {
+    border:  1px solid gray;
+    display: flex;
+}
+.row1 div ,.row2 div{
+    border:  1px solid gray;
+    height: 5rem;
+    width: 5rem; 
+}
+.row2 div{
+    border-radius: 10px 10px 10px 0px;
+}
+
+.row01 .A,.B,.C{
+    display: flex;
+    flex-direction: row;
+    margin:0px;
+    padding: 0px;
+}
+.A div ,.B div,.C div{
+    border :1px solid black;
+    margin: 0px;
+}
+.b{
+    background-color: black;
+}
+table tr td{
+ padding: 0px;
+ margin: 0px; 
+ height: 50px;
+ width: 50px;
+}
+table td{
+    margin: 0px;
+    padding: 0px;
+    border: 1px;
+}
+table{
+    border: 1px solid black;
+    padding: 0px; 
+    
+}
+
+.c1,.c2,.c3,.c4{
+    background-color: black;
+}
+.b1,.b2,.b3,.b4,.b5{
+    background-color: black;
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+}
+ tr{
+    display:flex;
+    justify-content:center;
+    flex-direction:row
+ }
+
+ 

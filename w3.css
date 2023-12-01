@@ -1,0 +1,25 @@
+
+.Courses{
+    display:flex;
+    flex-direction: row;
+    gap: 25px;
+    background-color: black;
+    padding: 5px;
+    align-content: center;
+
+   
+}
+a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+a:hover{
+    background-color: green;
+    padding: 5px;
+    margin: auto;
+    
+
+    }
+   
+

@@ -1,0 +1,39 @@
+table {
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+}
+
+tr td {
+    height: 60px;
+    width: 60px;
+    border: 1px solid chocolate;
+    background-color: burlywood;
+}
+
+.a {
+
+    background-color: orangered;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+
+}
+
+.a1 {
+    background-color: royalblue;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    margin-left: 5px;
+}
+
+.col {
+    background-color: white;
+}
+tr ,td, .a ,span{
+    text-align: center;
+    color: blueviolet;
+}

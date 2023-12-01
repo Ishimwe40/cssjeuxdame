@@ -1,0 +1,53 @@
+.navigationP{
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+
+}
+ul li{
+    list-style-type: none;
+    margin-right:1rem ;
+}
+
+ .textP{
+    display: flex;
+    flex-direction: row;
+    justify-content:end;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    
+
+}
+
+.allportefolio{
+    margin-left: 2rem;
+    margin-right: 2rem
+ }
+
+
+
+.container{
+    margin: 2rem;
+}
+.row-1{
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+}
+.row-1 .col-1{
+    display: block;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+
+}
+.col-1 img{
+    width: 98%;
+    height: 20rem;
+
+
+}

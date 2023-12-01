@@ -1,0 +1,83 @@
+body{
+    border: none;
+    padding: 0px;
+    margin: 0%;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    background-color: green;
+    margin: 0px;
+    padding-left: 2%;
+    padding-right: 2%;
+    align-items: center;
+    padding: 20px;
+}
+
+.r1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing:5px;
+    font-style: italic;
+    font-size:x-large;
+    font-weight: bold;
+    
+}
+.r2 a {
+
+    margin: 10px;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+
+}
+
+.r2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    list-style-type: none; 
+}
+ .r3:hover{
+   cursor:pointer;
+   color: white;
+   background-color: green;
+   border: 1px solid white;
+   
+   
+ }
+ .r4:hover{
+   background-color: white;
+   cursor:pointer;
+ }
+ .r4{
+    background-color:green ;
+    
+    border: 1px solid white; 
+    
+ }
+  button{
+    border-radius: 2px;
+    border: 1px solid white; 
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    
+  }
+  .News{
+    position: relative;
+  }
+  .Drodo{
+    position: absolute;
+    background-color: black;
+    padding: 5px;
+    margin-top: 2px;
+    border: 1px solid yellow;
+    display: none;
+    z-index: 6;
+    
+  }
+  .News:hover .Drodo{
+    display: block;
+
+}
